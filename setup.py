@@ -3,7 +3,7 @@
 import sys
 from setuptools import setup, find_packages
 
-NAME = "myagi"
+NAME = "myagi_python"
 VERSION = "1.0.0"
 
 
@@ -20,10 +20,10 @@ REQUIRES = ["urllib3 >= 1.10", "six >= 1.9", "certifi", "python-dateutil"]
 setup(
     name=NAME,
     version=VERSION,
-    description="Myagi API Client",
+    description="Myagi API",
     author_email="",
     url="",
-    keywords=["Swagger", "Myagi API Client"],
+    keywords=["Swagger", "Myagi API"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
