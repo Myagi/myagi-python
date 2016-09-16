@@ -452,7 +452,7 @@ class TrainingplansApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -558,7 +558,7 @@ class TrainingplansApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -637,7 +637,7 @@ class TrainingplansApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -749,7 +749,7 @@ class TrainingplansApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -828,7 +828,7 @@ class TrainingplansApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -934,7 +934,7 @@ class TrainingplansApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -1046,7 +1046,7 @@ class TrainingplansApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response

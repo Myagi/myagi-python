@@ -25,12 +25,28 @@ If you do not wish to use setuptools, you can download the latest release.
 Then, to use the bindings, import the package:
 
 ```python
-import path.to.myagi_python
+import myagi_python
 ```
 
 ## Getting Started
 
-TODO
+Basic API Call
+
+1. Create and API Client instance
+```python
+client = myagi_python.ApiClient(header_name="Authorization", header_value="JWT <YOUR_JWT_TOKEN>")
+```
+
+2. Create an instance of the specific API Library you want to use
+```python
+user_api = UsersApi(api_client=client)
+```
+
+3. Method calls
+```python
+all_available_users = user_api.api_v1_users_get()
+```
+
 
 ## Documentation
 

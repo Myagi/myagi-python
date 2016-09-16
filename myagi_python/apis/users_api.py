@@ -1,4 +1,4 @@
-# coding: utf-8
+    # coding: utf-8
 
 """
 UsersApi.py
@@ -235,6 +235,8 @@ class UsersApi(object):
         # Authentication setting
         auth_settings = []
 
+        
+
         response = self.api_client.call_api(resource_path, method,
                                             path_params,
                                             query_params,
@@ -242,7 +244,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -348,7 +350,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -421,7 +423,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -494,7 +496,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -573,7 +575,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -685,7 +687,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -764,7 +766,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -870,7 +872,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -982,7 +984,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -1094,7 +1096,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -1206,7 +1208,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -1318,7 +1320,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -1430,7 +1432,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -1542,7 +1544,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -1654,7 +1656,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
@@ -1766,7 +1768,7 @@ class UsersApi(object):
                                             body=body_params,
                                             post_params=form_params,
                                             files=files,
-                                            response_type=None,
+                                            response_type=object,
                                             auth_settings=auth_settings,
                                             callback=params.get('callback'))
         return response
