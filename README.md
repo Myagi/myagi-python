@@ -33,17 +33,17 @@ import myagi_python
 Basic API Call
 
 1. Create and API Client instance
-```python
-client = myagi_python.ApiClient(header_name="Authorization", header_value="JWT <YOUR_JWT_TOKEN>")
-```
+    ```python
+    client = myagi_python.ApiClient(header_name="Authorization", header_value="JWT <YOUR_JWT_TOKEN>")
+    ```
 2. Create an instance of the specific API Library you want to use
-```python
-user_api = UsersApi(api_client=client)
-```
+    ```python
+    user_api = UsersApi(api_client=client)
+    ```
 3. Method calls
-```python
-all_available_users = user_api.api_v1_users_get()
-```
+    ```python
+    all_available_users = user_api.api_v1_users_get()
+    ```
 
 
 ## Documentation
